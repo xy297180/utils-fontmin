@@ -2,8 +2,8 @@ import Fontmin from 'fontmin';
 
 
 const fontmin = new Fontmin()
-  .src("./fonts/AlimamaShuHeiTi-Bold/AlimamaShuHeiTi-Bold.ttf") // 源字体文件
-  .use(Fontmin.glyph({ text: "任务同步平台总览管理创建" })) // 只保留这些字符
+  .src("./fonts/DIN_Alternate/DIN_Alternate.ttf") // 源字体文件
+  .use(Fontmin.glyph({ text: "0123456789" })) // 只保留这些字符
   .use(Fontmin.ttf2woff2()) // 转换为 WOFF2 格式
   .dest("output/"); // 输出目录
 
